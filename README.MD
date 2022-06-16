@@ -1,8 +1,8 @@
 # 6 Weeks 6 Languages
 
-### Note: This is a personal copy and worked on as a self project
+#### Note: This is a personal copy and worked on as a self project
 
-#### Description
+### Description
 
 >**Project Description:** *This project mainly focuses on helping you learn various aspects, features and flaws of each of the languages. So throughout this journey we will try to appreciate, learn and understand the uniqueness and the potential of these languages. Along the way we would also be learning about concepts involved in programming & a lot of interesting things!*
 
