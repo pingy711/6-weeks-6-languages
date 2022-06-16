@@ -15,19 +15,25 @@ An example definition will be:
 ### Functions you can call
 
 >update_info_by_id(id)
+
 Requires your id to verify authenticity. After verification it will let you change your details.
 
 >display_info_by_id(id)
+
 Requires your id to verify authenticity. After verification it will display your details.
 
 >contact_details()
+
 Will show the *phone_number* stored in the invoking object.
 
 >display_age()
+
 Will show *age* stored in the invoking object.
 
 >travel_ticket_discount(ticket_price)
+
 Will take in the ticket price without discount as input and return the discounted fare based on the age of the member invoking it.
 
 >attendance_is_ok()
+
 Will return *True* of the attendance minimum has been met by the invoking member, else returns *False*.
