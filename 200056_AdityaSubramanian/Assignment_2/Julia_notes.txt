@@ -29,3 +29,25 @@ function...
 end
 
 Data Structures:
+- vectors:
+    defn: a = ["hey","it's","me","Aditya"]
+    index starts at 1 not 0
+    if we want to make a copy of an array then we've to use the copy function, c = copy(a) .If we do c=a then c will be the pointer to the array a
+    adding elements: append!(a,"!"), after appending a will become ["hey","it's","me","Aditya","!"]
+- matrix:
+    rows seperated by ';' columns seperated by space
+- n dimensional vector:
+    defined using keyword zeros
+    use: table = zeros(n,m,l)
+    accessing elements is as table[i, j, k] not table[i][j][k]
+    prefer to keep smaller index lenghts first, so ideally n<m<l
+- slices:
+    we can get a subpart of a n-dimensional vector as mat2 = b[indexn1:indexn2, indexm1,indexm2]
+- tuple:
+    same concept as in c++
+    using this we can return multiple values from Functions
+    no special syntax
+- dictionary:
+    key and value pair
+
+Control Flow:
