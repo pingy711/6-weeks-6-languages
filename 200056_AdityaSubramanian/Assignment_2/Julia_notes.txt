@@ -51,3 +51,19 @@ Data Structures:
     key and value pair
 
 Control Flow:
+- if, else, elseif:
+    just like in python
+    and is '&' , or is '||'
+- for loop:
+    already as before, same as python
+        for i in x:y
+            operation
+        end
+    break and coninue exist
+- while loop:
+    same as python ig, works on indentation
+- enumerate:
+    check this link https://techytok.com/lesson-control-flow/
+    basically enumerate(x) gives (i, x[i])
+
+Broadcasting:
