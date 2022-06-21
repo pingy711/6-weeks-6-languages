@@ -1,0 +1,31 @@
+Variables and types:
+- Tree like structure, Any: Number and others, Number has real and complex, Real has int and float and so on
+- Any function working on a type works on its subtype
+- typeof() returns type
+- convert(type_name, data) converts data to type of type_name
+
+Functions:
+- definition is as follows
+funtion <function_name>(<arguments_list>)
+    <body>
+    return <parameters>
+end
+- inline funcitons look like this
+function_name(arguments_list) = function_body
+  example:
+f(x,y,z) = (4x+y^2)*z
+- anonymous funcitons look like
+function_name = arguments_list -> function_body
+  example
+plus_two = x -> x+2
+- can have default arguments but they need to be in order
+- if we want default arguments but not in order then during the funciton definition we add ';' inside the parameters list, all arguments after the ';' mark will have to be passed with the variable name but now they can be in any order. This is called keyword arguments
+- typing '? function_name' in the terminal will give the funciton documentation if any. We can add documentation to a function by adding the following before defining a function:
+"""
+documentation
+"""
+function...
+    ...
+end
+
+Data Structures:
