@@ -1,6 +1,6 @@
 # 6 Weeks 6 Languages
 
-#### Note: This is a personal copy and worked on as a self project
+#### Note: This is a personal copy only for notes on the language Julia
 
 ### Description
 
